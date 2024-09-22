@@ -1,0 +1,80 @@
+@import "styles/zeroStyles.css";
+
+#root {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.slider__block-list {
+    width: 100%;
+    max-width: 250px;
+    min-height: 250px;
+
+    display: flex;
+
+    position: relative;
+
+    margin-bottom: 20px;
+
+    overflow: hidden;
+}
+
+.slider__block {
+    display: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+}
+
+.block_active {
+    display: block;
+    align-content: center;
+}
+
+.block_blue {
+    background-color: #74a4b3;
+}
+
+.block_green {
+    background-color: #75b374;
+}
+
+.block_violet {
+    background-color: #9f74b3;
+}
+
+.block__text {
+    width: 100%;
+
+    font-size: 20px;
+}
+
+.slider__buttons-list {
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.slider__button {}
+
+.button {}
