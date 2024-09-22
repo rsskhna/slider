@@ -1,5 +1,4 @@
-# Слайдер 
-https://rsskhna.github.io/slider-test/
+# Слайдер
 
 Технологии: 
 - ванильный JS
