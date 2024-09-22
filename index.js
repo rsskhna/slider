@@ -34,11 +34,13 @@ function autoPlay () {
     if (!intervalId) {
         intervalId = setInterval(nextElem, 1500);
     }
+    playBtn.classList.add('button_play-active');
 }
 
 function autoStop () {
     clearInterval(intervalId);
     intervalId = null;
+    playBtn.classList.remove('button_play-active');
 }
 
 function resetInterval () {

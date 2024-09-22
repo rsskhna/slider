@@ -3,9 +3,11 @@
 #root {
     width: 100%;
     max-width: 1280px;
+
+    text-align: center;
+
     margin: 0 auto;
     padding: 100px;
-    text-align: center;
 }
 
 .slider {
@@ -77,4 +79,25 @@
 
 .slider__button {}
 
-.button {}
+.button {
+    width: 100%;
+    max-width: max-content;
+
+    background-color: transparent;
+
+    border: 1px solid #707070;
+    border-radius: 8px;
+
+    padding: 4px 12px;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #ffe3aa;
+}
+
+.button_play-active {
+    background-color: #9ce792;
+}
